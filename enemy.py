@@ -5,5 +5,5 @@ class Enemy(pg.sprite.Sprite):
         pg.sprite.Sprite.__init__(self)
         self.image = image
         self.rect = self.image.get_rect()
-        self.rect.centre = pos
+        self.rect.center = pos
         
